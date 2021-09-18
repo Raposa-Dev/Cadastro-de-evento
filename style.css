@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-color: tomato;
+    width: 50vw;
+    height: 40vh;
+    background-color: rgb(43, 216, 141);
+    border-radius: 8px;
+    margin: auto;
+}
+
+main form fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 15rem;
+    border: none;
+    
+}
+
+main form fieldset label {
+    margin-top: 1rem;
+}
+
+main form fieldset a{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(42, 44, 41);
+    border-radius: 8px;
+    text-decoration: none;
+    justify-content: center;
+    color: rgb(255, 246, 246);
+    align-items: center;
+    margin: 30px auto;
+}
