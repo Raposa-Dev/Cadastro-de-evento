@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
 }
 
 form {
@@ -9,17 +10,22 @@ form {
     justify-content: center;
     background-color: tomato;
     width: 50vw;
+    max-width: 250px;
     height: 40vh;
-    background-color: rgb(43, 216, 141);
+    background-color: #ff00ff;
     border-radius: 8px;
-    margin: auto;
+    margin: 10rem auto;
+}
+
+main form fieldset p {
+    margin-top: 6px;
 }
 
 main form fieldset {
     display: flex;
     flex-direction: column;
     width: 10rem;
-    height: 15rem;
+    height: 20rem;
     border: none;
     
 }
@@ -28,15 +34,29 @@ main form fieldset label {
     margin-top: 1rem;
 }
 
+input:focus, input:focus {
+    outline: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#input-age {
+    width: 40px;
+}
+
 main form fieldset a{
     display: flex;
-    width: 100px;
-    height: 30px;
+    width: 90px;
+    height: 25px;
     background-color: rgb(42, 44, 41);
     border-radius: 8px;
     text-decoration: none;
     justify-content: center;
     color: rgb(255, 246, 246);
     align-items: center;
-    margin: 30px auto;
+    margin: 13px auto;
 }

@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap" rel="stylesheet">
     <title>Cadastro de Eventos</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="./main.js"></script>
@@ -15,16 +18,18 @@
             <form action="">
                 <fieldset>
 
-                    <label for="">Nome:</label>
+                    <p> Participantes: <span id="count-participants"> 33 </span></p>
+
+                    <label for=""> Nome: </label>
                     <input type="text" id="input-name">
 
-                    <label for="">Idade:</label>
+                    <label for=""> Idade: </label>
                     <input type="number" id="input-age">
 
-                    <label for="data-event">Data do evento:</label>
+                    <label for="data-event"> Data do evento: </label>
                     <input type="date" name="data-event" id="input-date">
 
-                    <a href="#" onclick="ckeckDate()">Enviar</a>
+                    <a href="#" onclick="ckeckDate()"> Enviar </a>
 
                 </fieldset>
             </form>
